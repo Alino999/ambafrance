@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(226, 224, 222);
+    margin: 0 auto;
+}
+header{
+    background-color: #fff;
+    width: 100%;
+    height: 300px;
+}
+header .menu{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    position: relative;
+    top: 25px;
+}
+header .menu a{
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+}
+header .menu p{
+    width: 70px;
+    height: 60px;
+    border: 1px solid black;
+    position: relative;
+    top: 5px;
+    font-size: 12px;
+}
+header .bf{
+    width: 400px;
+    height: 100px;
+    border: 1px solid black;
+    position: relative;
+    left: 300px;
+    bottom: 172px;
+}
+header .bf a{
+    text-decoration: none;
+    color: black;
+}
+header .co{
+    width: 300px;
+    height: 70px;
+    border: 1px solid black;
+    position: relative;
+    left: 800px;
+    bottom: 290px;
+}
+header .co a{
+    text-decoration: none;
+    color: rgb(125, 143, 201);
+    position: relative;
+    left: 50px;
+    margin: 10px;
+}
+header .co .re{
+    width: 233px;
+    height: 22px;
+    border: 1px solid black;
+    position: relative;
+    left: 60px;
+    top: 10px;
+    
+}
+header .ac{
+    width: 100%;
+    height: 60px;
+    border: 1px solid black;
+    position: relative;
+    bottom: 140px;
+}
+.red{
+    border:  1px solid black;
+    height: 250px !important;
+    width: 100%;
+    position: relative;
+    left: 100px;
+}
+.bim{
+    float: right;
+    width: 30% ;
+}
+.bom{
+  
+    border: 1px solid black;
+    color: black !important;
+    width: 50%;
+    height: 200px;
+    position: relative;
+    left: 100px;
+}
+.container{
+    width: 100%;
+    height: 710px;
+    border: 1px solid black;
+    background-color: rgb(229, 240, 248);
+}
+.ser{
+    width: 700px;
+    height: 680px;
+    border: 1px solid black;
+    background-color: white;
+    position: relative;
+    left: 10px;
+   top: 30px;}
+   .ser1 img{
+    height: 100px;
+    width: 245px;
+   }
+   .ser1 p{
+       width: 450px;
+       height: 100px;
+       float:right;
+       font-size: 12px;
+   }
+   .ser2 img{
+    height: 110px;
+    width: 245px;
+    position: relative;
+    top: 5px;
+   }
+   .ser2 p{
+       width: 450px;
+       height: 100px;
+       float:right;
+       font-size: 12px;
+       position: relative;
+       bottom: 110px;
+   }
+   .ser3 img{
+    height: 110px;
+    width: 245px;
+    position: relative;
+    top: 10px;
+   }
+   .ser3 p{
+       width: 450px;
+       height: 100px;
+       float:right;
+       font-size: 12px;
+       position: relative;
+       bottom: 105px;
+   }
+   .ser4 img{
+    height: 130px;
+    width: 245px;
+    position: relative;
+    top: 20px;
+   }
+   .ser4 p{
+       width: 450px;
+       height: 100px;
+       float:right;
+       font-size: 12px;
+       position: relative;
+       bottom: 110px;
+   }
+   .ser5 img{
+    height: 120px;
+    width: 245px;
+    position: relative;
+    top: 40px;
+   }
+   .ser5 p{
+       width: 450px;
+       height: 100px;
+       float:right;
+       font-size: 12px;
+       position: relative;
+       bottom: 85px;
+   }
+   .sert{
+    width: 380px;
+    height: 180px;
+    border: 5px solid white;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left: 720px;
+  bottom: 639px;}
+  .sert1 img{
+    float: right;
+    position: relative;
+    right: 10px;
+    bottom: 35px;
+  }
+   .serti{
+    width: 380px;
+    height: 120px;
+    border: 5px solid white;
+    background-color: rgb(245, 249, 252);
+    position: relative;
+    left: 720px;
+    bottom: 635px;
+}
+.serti img{
+    float: right;
+    position: relative;
+    right: 190px;
+    width: 20px;
+    height: 25px;
+    top: 5px;
+}
+.serti h3{
+    font-weight: 11px;
+    color: rgb(250, 171, 250);
+}
+.serti p{
+    font-size: 10px;
+    color: rgb(250, 171, 250);
+}
+.sertio{
+    width: 380px;
+    height: 340px;
+    border: 5px solid white;
+    background-color: rgb(245, 249, 252);
+    position: relative;
+    left: 720px;
+    bottom: 629px;
+}
+.ce{
+    width: 330px;
+    height: 170px;
+    border: 1px solid black;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.ces{
+    width: 330px;
+    height: 340px;
+    border: 1px solid black;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+.cess{
+    width: 330px;
+    height: 230px;
+    border: 1px solid black;
+    position: relative;
+    bottom: 500px;
+    left: 377px;
+}
+.cessi{
+    width: 330px;
+    height: 230px;
+    border: 1px solid black;
+    position: relative;
+    bottom: 490px;
+    left: 377px;
+}
+.cessio{
+    width: 330px;
+    height: 350px;
+    border: 1px solid black;
+    position: relative;
+    bottom: 965px;
+    left: 745px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: rgb(14, 13, 13);
+    border: 1px solid black;
+    height: 230px;
+    width: 100%;
+}

@@ -1,0 +1,38 @@
+.con {
+    border: 1px solid black;
+    width: 700px;
+    height: 2900px;
+    background-color: blue;
+}
+.con img{
+    position: relative;
+    left: 10px;
+    border-bottom: 1px solid rgb(10, 10, 10);
+}
+.con .con1{
+    width: 680px;
+    height: 100px;
+    border: 1px solid black;
+    position: relative;
+    left: 11px;
+    background-color: rgb(115, 115, 248);
+    bottom: 32px;
+}
+.cont{
+    border: 1px solid black;
+    width: 350px;
+    height: 100px;
+    background-color: rgb(192, 192, 229);
+    position: relative;
+    left: 750px;
+    bottom: 2900px;
+}
+.conta{
+    border: 1px solid black;
+    width: 350px;
+    height: 170px;
+    background-color: rgb(155, 155, 158);
+    position: relative;
+    left: 750px;
+    bottom: 2880px;
+}
