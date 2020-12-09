@@ -3,20 +3,30 @@
     padding: 0;
 }
 body{
-    background-color: rgb(226, 224, 222);
+   
     margin: 0 auto;
+}
+#page{
+    background: rgb(236, 240, 241);
 }
 header{
     background-color: #fff;
     width: 100%;
     height: 300px;
 }
+.contain{
+    width: auto;
+}
+.correct{
+    width: auto;
+}
 header .menu{
     width: 300px;
     height: 200px;
-    border: 1px solid black;
+    border: 1px  black;
     position: relative;
     top: 25px;
+    left: 100px;
 }
 header .menu a{
     text-decoration: none;
@@ -26,7 +36,7 @@ header .menu a{
 header .menu p{
     width: 70px;
     height: 60px;
-    border: 1px solid black;
+    border: 1px  black;
     position: relative;
     top: 5px;
     font-size: 12px;
@@ -34,9 +44,9 @@ header .menu p{
 header .bf{
     width: 400px;
     height: 100px;
-    border: 1px solid black;
+    border: 1px  black;
     position: relative;
-    left: 300px;
+    left: 450px;
     bottom: 172px;
 }
 header .bf a{
@@ -46,9 +56,9 @@ header .bf a{
 header .co{
     width: 300px;
     height: 70px;
-    border: 1px solid black;
+    border: 1px  black;
     position: relative;
-    left: 800px;
+    left: 950px;
     bottom: 290px;
 }
 header .co a{
@@ -71,9 +81,34 @@ header .ac{
     width: 100%;
     height: 60px;
     border: 1px solid black;
+    border-bottom: 2px solid rgb(32, 32, 32);
+    border-top: 2px solid rgb(32, 32, 32);
     position: relative;
     bottom: 140px;
 }
+.bordroit{
+    border-right: 1px solid rgb(190, 188, 188);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .red{
     border:  1px solid black;
     height: 250px !important;
@@ -367,8 +402,77 @@ header .ac{
 
 
 footer{
-    background-color: rgb(14, 13, 13);
+    background-color: rgb(50, 49, 54);
     border: 1px solid black;
     height: 230px;
     width: 100%;
+}
+.blo{
+    width: 84.5%;
+    height: 220px;
+    border:1px  rgb(235, 204, 204);
+    position: relative;
+    left: 105px;
+    display: flex;
+}
+.blo1{
+    width: 300px;
+    height: 180px;
+    border:1px  rgb(247, 96, 96);
+
+}
+.blo1a h3{
+    color: white;
+    font-weight: bolder;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    font-size: 1.2em;
+    padding: 0px 0px 5px;
+    margin: 0px 0px 12px;
+}
+.blo1b{
+    display: flex;
+}
+.blo1b li{
+    list-style: none;
+}
+.blo1b a{
+    color: white;
+    font-size: 13px;
+}
+.blo2{
+    width: 300px;
+    height: 180px;
+    border:1px  rgb(247, 96, 96);
+    position: relative;
+    left: 120px;
+
+}
+.blo2a h3{
+    color: white;
+    font-weight: bolder;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    font-size: 1.2em;
+    padding: 0px 0px 5px;
+    margin: 0px 0px 12px;
+}
+.blo2 img{
+    position: relative;
+    left: 180px;
+    bottom: 60px;
+}
+.blo3{
+    width: 300px;
+    height: 180px;
+    border:1px solid (247, 96, 96);
+    position: relative;
+    left: 237px;
+
+}
+.blo3a h3{
+    color: white;
+    font-weight: bolder;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    font-size: 1.2em;
+    padding: 0px 0px 5px;
+    margin: 0px 0px 12px;
 }
